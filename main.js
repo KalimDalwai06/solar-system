@@ -1,7 +1,11 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { CSS2DRenderer, CSS2DObject } from 'three/examples/jsm/renderers/CSS2DRenderer.js';
+// ✅ Import Three.js + extras from CDN
+import * as THREE from 'https://unpkg.com/three@0.158.0/build/three.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.158.0/examples/jsm/controls/OrbitControls.js';
+import { CSS2DRenderer, CSS2DObject } from 'https://unpkg.com/three@0.158.0/examples/jsm/renderers/CSS2DRenderer.js';
+
+// ✅ Local import still works for your own file
 import { addMeteorImpact, updateMeteorImpact } from './meteorImpact.js';
+
 
 const canvas = document.getElementById('solar');
 const scene = new THREE.Scene();

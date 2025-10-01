@@ -1,5 +1,5 @@
 // meteorOrbit.js
-import * as THREE from 'three';
+import * as THREE from 'https://unpkg.com/three@0.158.0/build/three.module.js';
 
 let meteorMesh;
 let orbitLine;
