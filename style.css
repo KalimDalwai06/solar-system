@@ -1,8 +1,13 @@
-body {
+/* Make canvas fill the screen and prevent scrollbars */
+html, body {
   margin: 0;
+  padding: 0;
   overflow: hidden;
-  background: black;
+  background: #000;
 }
+
 canvas {
   display: block;
+  width: 100vw;
+  height: 100vh;
 }
